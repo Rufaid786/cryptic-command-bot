@@ -1,0 +1,3 @@
+To create a group PNR in Amadeus, use the command NM1TEST/GROUP.
+This command helps you book tickets for a group in one go using Amadeus cryptic commands.
+Amadeus also supports tools for managing group bookings using cryptic inputs.
