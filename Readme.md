@@ -18,12 +18,12 @@ An interactive chatbot built with **Streamlit**, **LangChain**, and **gemini-2.0
 ## Setup Instructions
 
 ####  1. Clone the repo
-git clone https://github.com/Rufaid786/cryptic-command-bot.git <br>
-cd cryptic-chatbot
+i.git clone https://github.com/Rufaid786/cryptic-command-bot.git <br>
+ii.cd cryptic-chatbot
 
 ####  2.Create virtual environment and activate it
---i.Creation:python -m venv venv <br>
---ii.Activation:source venv/bin/activate       # On Windows use: venv\Scripts\activate
+i.**Creation:** python -m venv venv <br>
+ii.**Activation:** source venv/bin/activate       # On Windows use: venv\Scripts\activate
 
 ####  3.Install required packages
 pip install -r requirements.txt
