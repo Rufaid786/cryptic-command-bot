@@ -1,0 +1,43 @@
+# 💬 Cryptic Command Chatbot
+
+An interactive chatbot built with **Streamlit**, **LangChain**, and **gemini-2.0-flash** that helps users understand and interact with **cryptic commands** by retrieving content from URLs.
+
+---
+
+## 🚀 Features
+
+- ✅ Loads real-time content from support articles
+- ✅ Uses **Google's Gemini 2.0 Flash** for LLM responses
+- ✅ Fast retrieval powered by **FAISS** vector store
+- ✅ Embedding with **GoogleGenerativeAIEmbeddings**
+- ✅ Beautiful chat interface with **Streamlit**
+- ✅ Maintains chat history per session
+
+---
+
+## Setup Instructions
+
+#### # 1. Clone the repo
+git clone https://github.com/Rufaid786/cryptic-command-bot.git
+cd cryptic-chatbot
+
+#### # 2.Create virtual environment and activate it
+--i.Creation:python -m venv venv
+--ii.Activation:source venv/bin/activate       # On Windows use: venv\Scripts\activate
+
+#### # 3.Install required packages
+pip install -r requirements.txt
+
+#### # 4. Add your API key to .env
+Create a .env file in the project root and paste the following code in it where your_google_api_key is your model API key
+GOOGLE_API_KEY=your_google_api_key
+
+
+
+## Running Locally
+
+#### # 1. Make sure you are in your virtual environment
+If you are not you can do it by following step2 in setup Instructions
+
+#### # 2. Start your streamlit app
+Streamlit run app.py
