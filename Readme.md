@@ -17,27 +17,27 @@ An interactive chatbot built with **Streamlit**, **LangChain**, and **gemini-2.0
 
 ## Setup Instructions
 
-#### # 1. Clone the repo
-git clone https://github.com/Rufaid786/cryptic-command-bot.git
+####  1. Clone the repo
+git clone https://github.com/Rufaid786/cryptic-command-bot.git <br>
 cd cryptic-chatbot
 
-#### # 2.Create virtual environment and activate it
---i.Creation:python -m venv venv
+####  2.Create virtual environment and activate it
+--i.Creation:python -m venv venv <br>
 --ii.Activation:source venv/bin/activate       # On Windows use: venv\Scripts\activate
 
-#### # 3.Install required packages
+####  3.Install required packages
 pip install -r requirements.txt
 
-#### # 4. Add your API key to .env
-Create a .env file in the project root and paste the following code in it where your_google_api_key is your model API key
+####  4. Add your API key to .env
+Create a .env file in the project root and paste the following code in it where your_google_api_key is your model API key  <br>
 GOOGLE_API_KEY=your_google_api_key
 
 
 
 ## Running Locally
 
-#### # 1. Make sure you are in your virtual environment
+####  1. Make sure you are in your virtual environment
 If you are not you can do it by following step2 in setup Instructions
 
-#### # 2. Start your streamlit app
+####  2. Start your streamlit app
 Streamlit run app.py
