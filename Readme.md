@@ -45,3 +45,9 @@ Streamlit run app.py
 
 **Demo**  <br>
 https://www.youtube.com/watch?v=LE_ix2wCZUI
+with cache implemented <br>
+https://www.youtube.com/watch?v=Wbza2HFfGFw
+
+
+**Hosted site**  <br>
+https://cryptic-command.streamlit.app/
