@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 
-from modules.loader import load_data_from_urls
+from modules.loader import load_combined_data
 from modules.embedder import create_embeddings
 from modules.vectorstore import build_vectorstore
 from modules.llm import create_llm
@@ -24,8 +24,11 @@ if "history" not in st.session_state:
 with open("datas/urls.txt") as f:
     urls = [line.strip() for line in f.readlines() if line.strip()]
 
+#PDFs location
+pdfs="datas/pdfs"
+
 # Load and process data
-full_text = load_data_from_urls(urls)
+full_text = load_combined_data(urls,pdfs)
 embeddings = create_embeddings(google_api_key)
 vectorstore = build_vectorstore(full_text, embeddings)
 retriever = vectorstore.as_retriever()
@@ -35,7 +38,7 @@ prompt = get_custom_prompt()
 qa_chain = create_qa_chain(llm, retriever, prompt)
 
 # Input
-query = st.chat_input("Ask about Amadeus cryptic commands...")
+query = st.chat_input("Ask about cryptic commands...")
 
 # History
 for q, a in st.session_state.history:
