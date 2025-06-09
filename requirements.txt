@@ -1,5 +1,8 @@
-langchain==0.3.25
-langchain_google_genai==2.1.5
+langchain==0.1.14
+langchain-community==0.0.38
+langchain-core==0.1.53
+langchain-google-genai==0.0.9
+langchain-text-splitters==0.0.2
 python-dotenv==1.1.0
 Requests==2.32.3
 streamlit==1.45.1
