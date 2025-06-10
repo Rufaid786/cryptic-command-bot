@@ -27,10 +27,10 @@ ii.cd cryptic-chatbot
 python -m venv venv
 
 **ii. Activation:**
-On macOS/Linux
+*On macOS/Linux :*
 source venv/bin/activate
 
-On Windows
+*On Windows :*
 venv\Scripts\activate 
 
 ####  3.Install required packages
