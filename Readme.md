@@ -22,8 +22,15 @@ An interactive chatbot built with **Streamlit**, **LangChain**, and **gemini-2.0
 &nbsp &nbsp &nbsp ii.cd cryptic-chatbot
 
 ####  2.Create virtual environment and activate it
-&nbsp;&nbsp;&nbsp;i.**Creation:** python -m venv venv <br>
-&nbsp;&nbsp;&nbsp;ii.**Activation:** source venv/bin/activate       # On Windows use: venv\Scripts\activate
+**i. Creation:**
+
+```bash
+python -m venv venv
+# On macOS/Linux
+source venv/bin/activate
+
+# On Windows
+venv\Scripts\activate
 
 ####  3.Install required packages
 pip install -r requirements.txt
@@ -43,8 +50,8 @@ If you are not you can do it by following step2 in setup Instructions
 Streamlit run app.py
 
 
-**Demo**  <br>
-We are  currently in the process of analysing the performance time of LLM now. <br>
+🎥 **Demo**
+We are currently analyzing the LLM's performance timing:
 without cache:https://www.youtube.com/watch?v=LE_ix2wCZUI <br>
 with cache implemented : https://www.youtube.com/watch?v=Wbza2HFfGFw
 
