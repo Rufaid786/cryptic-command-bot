@@ -18,12 +18,12 @@ An interactive chatbot built with **Streamlit**, **LangChain**, and **gemini-2.0
 ## Setup Instructions
 
 ####  1. Clone the repo
-i.git clone https://github.com/Rufaid786/cryptic-command-bot.git <br>
-ii.cd cryptic-chatbot
+&nbsp &nbsp &nbsp i.git clone https://github.com/Rufaid786/cryptic-command-bot.git <br>
+&nbsp &nbsp &nbsp ii.cd cryptic-chatbot
 
 ####  2.Create virtual environment and activate it
-i.**Creation:** python -m venv venv <br>
-ii.**Activation:** source venv/bin/activate       # On Windows use: venv\Scripts\activate
+&nbsp &nbsp &nbsp i.**Creation:** python -m venv venv <br>
+&nbsp &nbsp &nbsp ii.**Activation:** source venv/bin/activate       # On Windows use: venv\Scripts\activate
 
 ####  3.Install required packages
 pip install -r requirements.txt
@@ -44,7 +44,7 @@ Streamlit run app.py
 
 
 **Demo**  <br>
-We are  currently in the process of analysing the performance time of LLM now.
+We are  currently in the process of analysing the performance time of LLM now. <br>
 without cache:https://www.youtube.com/watch?v=LE_ix2wCZUI <br>
 with cache implemented : https://www.youtube.com/watch?v=Wbza2HFfGFw
 
