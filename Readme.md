@@ -22,15 +22,17 @@ An interactive chatbot built with **Streamlit**, **LangChain**, and **gemini-2.0
 &nbsp &nbsp &nbsp ii.cd cryptic-chatbot
 
 ####  2.Create virtual environment and activate it
-**i. Creation:**
 
 ```bash
+**i. Creation:**
 python -m venv venv
+
+**ii. Activation:**
 # On macOS/Linux
 source venv/bin/activate
 
 # On Windows
-venv\Scripts\activate
+venv\Scripts\activate ```
 
 ####  3.Install required packages
 pip install -r requirements.txt
