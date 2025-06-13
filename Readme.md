@@ -18,8 +18,7 @@ An interactive chatbot built with **Streamlit**, **LangChain**, and **gemini-2.0
 ## Setup Instructions
 
 ####  1. Clone the repo
- i.git clone https://github.com/Rufaid786/cryptic-command-bot.git <br>
- ii.cd cryptic-chatbot
+git clone https://github.com/Rufaid786/cryptic-command-bot.git 
 
 ####  2.Create virtual environment and activate it
 
@@ -57,5 +56,5 @@ without cache:https://www.youtube.com/watch?v=LE_ix2wCZUI <br>
 with cache implemented : https://www.youtube.com/watch?v=Wbza2HFfGFw
 
 
-**Hosted site**  <br>
-https://cryptic-command.streamlit.app/
+🚀 **Try it here:** <br>
+[cryptic-command-bot](https://cryptic-command.streamlit.app/)
