@@ -60,7 +60,7 @@ If you are not you can do it by following step2 in setup Instructions
 Streamlit run app.py
 
 
-🎥 **Demo** <br>
+## 🎥 Demo
 🧪 Meta Models Tested on SambaNova <br>
 As part of this project, we tested several Meta LLaMA models available on SambaNova, in combination with the external embedding model sentence-transformers/all-MiniLM-L6-v2. <br>
 
