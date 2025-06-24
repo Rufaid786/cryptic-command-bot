@@ -11,7 +11,7 @@ from modules.qa_chain import create_qa_chain
 
 # Load API key
 load_dotenv()
-google_api_key = os.getenv("GOOGLE_API_KEY")
+llama_api_key = os.getenv("SAMBANOVA_API_KEY")
 
 st.set_page_config(page_title="Cryptic Command Chatbot")
 st.title("💬 Cryptic Command Chatbot")
@@ -29,11 +29,11 @@ pdfs="datas/pdfs"
 
 # Load and process data
 full_text = load_combined_data(urls,pdfs)
-embeddings = create_embeddings(google_api_key)
+embeddings = create_embeddings()
 vectorstore = build_vectorstore(full_text, embeddings)
 retriever = vectorstore.as_retriever()
 
-llm = create_llm(google_api_key)
+llm = create_llm(llama_api_key)
 prompt = get_custom_prompt()
 qa_chain = create_qa_chain(llm, retriever, prompt)
 
