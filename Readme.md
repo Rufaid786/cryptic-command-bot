@@ -55,6 +55,8 @@ We are currently analyzing the LLM's performance timing:<br>
 without cache:https://www.youtube.com/watch?v=LE_ix2wCZUI <br>
 with cache implemented : https://www.youtube.com/watch?v=Wbza2HFfGFw
 
+modified chatbot : https://youtu.be/yBCYeFxlZlc
+
 
 🚀 **Try it here:** <br>
 [cryptic-command-bot](https://cryptic-command.streamlit.app/)
