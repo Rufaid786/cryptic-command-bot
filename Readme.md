@@ -43,9 +43,11 @@ Visit 👉 https://cloud.sambanova.ai/  <br>
 Create an account and generate your API key from the dashboard
 
 **ii. Create a .env File:** <br>
-In your project root, create a file named .env and add the following configuration: <br>
-base_url="https://api.sambanova.ai/v1"
-SAMBANOVA_API_KEY="your_actual_api_key_here"
+In your project root, create a file named .env and add the following configuration: 
+<ul>
+    <li>base_url="https://api.sambanova.ai/v1"</li>
+    <li>SAMBANOVA_API_KEY="your_actual_api_key_here"</li>
+</ul>
 
 Replace "your_actual_api_key_here" with the API key you generated from the SambaNova dashboard.
 
@@ -85,7 +87,7 @@ After evaluating based on response quality, stability, and token limits, the fol
 
 
 <b>
-A sample demo here :
+A sample demo here : https://youtu.be/QBDciR0XUz4
 </b>
 
 
