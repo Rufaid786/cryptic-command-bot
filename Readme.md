@@ -64,7 +64,7 @@ Streamlit run app.py
 
 As part of this project, we tested several Meta LLaMA models available on SambaNova, in combination with the external embedding model sentence-transformers/all-MiniLM-L6-v2. <br>
 
-✅ <h4>Models Evaluated:</h4>
+<h4>✅ Models Evaluated:</h4>
 <ul>
     <li>Meta-Llama-3.1-405B-Instruct</li>
     <li>Meta-Llama-3.1-8B-Instruct</li>
@@ -74,20 +74,20 @@ As part of this project, we tested several Meta LLaMA models available on SambaN
     <li>Meta-Llama-Guard-3-8B</li>
 </ul>
 
-⭐ <h4>Models Found Suitable for Our Use Case: </h4>
+<h4>⭐ Models Found Suitable for Our Use Case: </h4>
 After evaluating based on response quality, stability, and token limits, the following models were found to best fit our needs: <br>
 
 <ul>
     <li>Meta-Llama-3.3-70B-Instruct</li>
     <li>Meta-Llama-3.1-405B-Instruct</li>
     <li>Meta-Llama-3.1-8B-Instruct</li>
-<ul>
+</ul>
 
-<section>
+
 <b>
 A sample demo here :
 </b>
-</section>
+
 
 
 
