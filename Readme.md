@@ -1,6 +1,6 @@
 # 💬 Cryptic Command Chatbot
 
-An interactive chatbot built with **Streamlit**, **LangChain**, and **meta LLMs** that helps users understand and interact with **cryptic commands** by retrieving content from URLs.
+An interactive chatbot built with **Streamlit**, **LangChain**, and **Meta LLMs** that helps users understand and interact with **cryptic commands** by retrieving content from URLs.
 
 ---
 
@@ -61,24 +61,30 @@ Streamlit run app.py
 
 
 🎥 **Demo** <br>
-🧪 Meta Models Tested on SambaNova
-As part of this project, we tested several Meta LLaMA models available on SambaNova, in combination with the external embedding model sentence-transformers/all-MiniLM-L6-v2.
-✅ Models Evaluated:
-Meta-Llama-3.1-405B-Instruct
-Meta-Llama-3.1-8B-Instruct
-Meta-Llama-3.2-1B-Instruct
-Meta-Llama-3.2-3B-Instruct
-Meta-Llama-3.3-70B-Instruct
-Meta-Llama-Guard-3-8B
+🧪 Meta Models Tested on SambaNova <br>
+As part of this project, we tested several Meta LLaMA models available on SambaNova, in combination with the external embedding model sentence-transformers/all-MiniLM-L6-v2. <br>
+
+✅ Models Evaluated: 
+<ul>
+    <li>Meta-Llama-3.1-405B-Instruct</li>
+    <li>Meta-Llama-3.1-8B-Instruct</li>
+    <li>Meta-Llama-3.2-1B-Instruct</li>
+    <li>Meta-Llama-3.2-3B-Instruct</li>
+    <li>Meta-Llama-3.3-70B-Instruct</li>
+    <li>Meta-Llama-Guard-3-8B</li>
+</ul>
 
 ⭐ Models Found Suitable for Our Use Case:
-After evaluating based on response quality, stability, and token limits, the following models were found to best fit our needs:
+After evaluating based on response quality, stability, and token limits, the following models were found to best fit our needs: <br>
 
-Meta-Llama-3.3-70B-Instruct
-Meta-Llama-3.1-405B-Instruct
-Meta-Llama-3.1-8B-Instruct
+<ul>
+    <li>Meta-Llama-3.3-70B-Instruct</li>
+    <li>Meta-Llama-3.1-405B-Instruct</li>
+    <li>Meta-Llama-3.1-8B-Instruct</li>
+<ul>
 
-A sample deom here :
+A sample demo here :
+
 
 
 
