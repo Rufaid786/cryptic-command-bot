@@ -74,7 +74,7 @@ As part of this project, we tested several Meta LLaMA models available on SambaN
     <li>Meta-Llama-Guard-3-8B</li>
 </ul>
 
-⭐ Models Found Suitable for Our Use Case:
+⭐ Models Found Suitable for Our Use Case: <br>
 After evaluating based on response quality, stability, and token limits, the following models were found to best fit our needs: <br>
 
 <ul>
@@ -83,7 +83,9 @@ After evaluating based on response quality, stability, and token limits, the fol
     <li>Meta-Llama-3.1-8B-Instruct</li>
 <ul>
 
+<p>
 A sample demo here :
+</p>
 
 
 
